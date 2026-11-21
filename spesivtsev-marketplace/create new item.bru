@@ -1,0 +1,20 @@
+meta {
+  name: create new item
+  type: http
+  seq: 7
+}
+
+post {
+  url: https://api.kitek-pg.ru/api/marketplace/items
+  body: json
+  auth: none
+}
+
+body:json {
+  {
+    "title": "iPhone 20 PRO MAX",
+    "description": "Новый iPhone 20 в идеальном состоянии, все аксессуары в комплекте",
+    "price": 64436534,
+    "imageUrl": "https://iprofishop.ru/upload/iblock/e4a/i8wge0ibjiwtf81gix89vzx22k0rjdf9.jpeg"
+  }
+}
